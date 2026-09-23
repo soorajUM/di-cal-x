@@ -1,0 +1,13 @@
+{
+  "name": "di-cal-x-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:mobile": "npm run start --workspace=apps/mobile",
+    "dev:server": "npm run dev --workspace=apps/server"
+  }
+}
